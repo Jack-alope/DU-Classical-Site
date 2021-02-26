@@ -1,3 +1,23 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "DU Classical Society"
+
+
+[menu]
+  [[menu.bot]]
+    identifier = "facebook"
+    name = "Facebook"
+    url = ""
+    pre = "fab fa-facebook"
+
+  [[menu.bot]]
+    identifier = "instagram"
+    name = "Instagram"
+    url = ""
+    pre = "fab fa-instagram"
+
+  [[menu.bot]]
+    identifier = "twitter"
+    name = "Twitter"
+    url = ""
+    pre = "fab fa-twitter"

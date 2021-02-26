@@ -1,0 +1,29 @@
+<footer class="footer mt-5">
+    <div class="text-center">
+        <div>
+            {{ range .Site.Menus.bot }}
+                <a href="{{ .URL}}" title="{{.Title}}" target="_blank"> <i
+                class="{{.Pre}} foot-link"
+                data-toggle="tooltip" data-placement="top"
+                title="{{.Name}}"></i></a>
+            {{ end }}
+        </div>
+        <div>
+            {{ now.Format "2006" }} &#169 {{ .Site.Title }} | <a href="/admin">Admin Login</a>
+        </div>
+        
+    </div>
+    <style>
+        .footer {
+            font-size: 10pt;
+            color: grey;
+        }
+        .footer a {
+            color: grey;
+        }
+        .foot-link {
+            font-size: 15pt;
+            padding: 1%;
+        }
+    </style>
+</footer>
