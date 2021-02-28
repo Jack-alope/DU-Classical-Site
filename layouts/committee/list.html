@@ -1,10 +1,10 @@
 {{ define "main" }}
     <div class="container">
       <h1 class="text-center" style="padding-top:
-      20px;">Committee</h1>
+      50px;">Committee</h1>
       <hr width="50%">
       
-      <div class="row justify-content-center">
+      <div class="row justify-content-center align-items-center">
         {{ range .Pages.ByDate }}
           <div role="dialog" tabindex="-1" class="modal fade" id="{{.Params.short}}">
             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
@@ -18,9 +18,9 @@
             </div>
           </div>
           
-          <div class="col-sm-6 col-lg-4" style="padding-top: 15px;">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="padding-top:30px;">
             <a class="text-muted" href="#{{.Params.short}}" data-toggle="modal">
-              <div class="card text-center" style="width: 18rem;">
+              <div class="card text-center">
                 <img class="card-img-top" src="{{.Params.image}}-/scale_crop/750x500/smart/" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">{{ .Params.name }}</h5>
