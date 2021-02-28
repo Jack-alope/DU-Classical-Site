@@ -7,6 +7,7 @@ media_library:
   name: uploadcare
   config:
     publicKey: 45b23e70f2f704125f07
+    crop: "3:2"
 
 collections:
   - name: 'news'
