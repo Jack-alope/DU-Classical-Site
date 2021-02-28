@@ -57,6 +57,18 @@ collections:
     editor:
       preview: false
     fields: # The fields each document in this collection have
+      - label: 'Name'
+        name: 'name'
+        widget: 'string'
+      - label: 'Position'
+        name: 'position'
+        widget: 'string'
+      - label: 'Short (unique string)'
+        name: 'short'
+        widget: 'string'
+      - label: 'Bio'
+        name: 'bio'
+        widget: 'markdown'
       - label: 'Cover Image'
         name: 'image'
         widget: 'image'
