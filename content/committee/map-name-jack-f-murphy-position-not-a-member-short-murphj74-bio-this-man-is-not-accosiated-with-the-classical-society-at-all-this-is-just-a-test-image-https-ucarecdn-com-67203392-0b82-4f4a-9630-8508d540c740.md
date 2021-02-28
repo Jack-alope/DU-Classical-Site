@@ -1,6 +1,6 @@
 ---
 name: Jack F. Murphy
-position: Not a Member
+position: Not a Member (Temp)
 short: murphj74
 bio: This man is not accosiated with the classical society at all. This is just
   a test
