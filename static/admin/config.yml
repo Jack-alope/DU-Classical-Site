@@ -54,6 +54,6 @@ collections:
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Position', name: 'position', widget: 'string' }
-      - { label: 'Short (unique string)', name: 'position', widget: 'string' }
+      - { label: 'Short (unique string)', name: 'short', widget: 'string' }
       - { label: 'Bio', name: 'bio', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image' }
