@@ -8,17 +8,17 @@ title = "DU Classical Society"
   [[menu.bot]]
     identifier = "facebook"
     name = "Facebook"
-    url = ""
+    url = "https://www.facebook.com/DUClassics"
     pre = "fab fa-facebook"
 
   [[menu.bot]]
     identifier = "instagram"
     name = "Instagram"
-    url = ""
+    url = "https://www.instagram.com/duclassical/"
     pre = "fab fa-instagram"
 
   [[menu.bot]]
     identifier = "twitter"
     name = "Twitter"
-    url = ""
+    url = "https://twitter.com/DUClassical"
     pre = "fab fa-twitter"
