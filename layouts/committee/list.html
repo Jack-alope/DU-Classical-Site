@@ -1,18 +1,33 @@
 {{ define "main" }}
     <div class="container">
-    {{ range .Pages }}
       <div class="row justify-content-center">
-        <div class="col-sm-6 col-lg-4" style="padding-top: 15px;">
-          <div class="card text-center" style="width: 18rem;">
-            <img class="card-img-top" src="{{ .Params.image }}" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">{{ .Params.name }}</h5>
-              <p class="card-text" style="color: grey;">{{.Params.position}}</p>
+        {{ range .Pages.ByDate }}
+          <div role="dialog" tabindex="-1" class="modal fade" id="{{.Params.short}}">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <p>{{.Params.bio}}</p>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
+                </div>
             </div>
           </div>
-        </div>
-      </div>
-    {{ end }}
+          
+          <div class="col-sm-6 col-lg-4" style="padding-top: 15px;">
+            <a class="text-muted" href="#{{.Params.short}}" data-toggle="modal">
+              <div class="card text-center" style="width: 18rem;">
+                <img class="card-img-top" src="{{ .Params.image }}" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">{{ .Params.name }}</h5>
+                  <p class="card-text" style="color: grey;">{{.Params.position}}</p>
+                </div>
 
+              </div>
+            </a>
+          </div>
+          
+        {{ end }}
+      </div>
     </div>
 {{ end }}
