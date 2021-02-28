@@ -1,8 +1,7 @@
 ---
-name: Jack F. Murphy
-position: Not a Member (Temp)
-short: murphj74
-bio: This man is not accosiated with the classical society at all. This is just
-  a test
-image: https://ucarecdn.com/67203392-0b82-4f4a-9630-8508d540c740/
+name: Test Person
+position: Position
+short: asdsasadsasddhhg
+bio: This is a test bio.
+image: https://ucarecdn.com/8e8af937-76dc-46b5-a3ce-8e44e1278392/-/crop/945x630/0,315/-/preview/
 ---
