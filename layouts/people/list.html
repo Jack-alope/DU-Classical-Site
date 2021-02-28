@@ -1,0 +1,9 @@
+{{ define "main" }}
+    <div class="container">
+    {{ range .Pages }}
+      <p>{{ .Params.name }}</p>
+      <p>{{ .Params.position }}</p>
+      <p>{{ .Params.bio }}</p>
+    {{ end }}
+    </div>
+{{ end }}
