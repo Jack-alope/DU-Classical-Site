@@ -4,10 +4,9 @@ backend:
   media_folder: static/img
 # public_folder: /img
 media_library:
-  name: cloudinary
+  name: uploadcare
   config:
-    cloud_name: tcdclassical
-    api_key: 787563415831564
+    publicKey: 45b23e70f2f704125f07
 
 collections:
   - name: 'blog'
