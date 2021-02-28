@@ -1,9 +1,18 @@
 {{ define "main" }}
     <div class="container">
     {{ range .Pages }}
-      <p>{{ .Params.name }}</p>
-      <p>{{ .Params.position }}</p>
-      <p>{{ .Params.bio }}</p>
+      <div class="row justify-content-center">
+        <div class="col-sm-6 col-lg-4" style="padding-top: 15px;">
+          <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top" src="{{ .Params.image }}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{ .Params.name }}</h5>
+              <p class="card-text" style="color: grey;">{{.Params.position}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
     {{ end }}
+
     </div>
 {{ end }}
