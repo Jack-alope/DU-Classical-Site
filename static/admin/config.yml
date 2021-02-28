@@ -5,6 +5,7 @@ media_folder: static/img
 public_folder: /img
 media_library:
   name: cloudinary
+  output_filename_only: true
   config:
     cloud_name: duclassical
     api_key: 531313516355845
