@@ -56,20 +56,17 @@ collections:
     slug: '{{slug}}'
     editor:
       preview: false
-    fields:
-      - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Position', name: 'position', widget: 'string' }
-      - { label: 'Short (unique string)', name: 'short', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Bio', name: 'bio', widget: 'string' }
-      - label: 'Image' 
+    fields: # The fields each document in this collection have
+      - label: 'Cover Image'
         name: 'image'
         widget: 'image'
-        media_library: 
-          config: 
+        required: false
+        tagname: ''
+        media_library:
+          config:
             default_transformations:
               - fetch_format: auto
-              ratio value: 1.5    
-              quality: auto
-              crop: fill
-              effect: grayscale 
+                width: 300    
+                quality: auto
+                crop: fill
+                effect: grayscale
