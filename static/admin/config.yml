@@ -3,11 +3,6 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: static/img
 public_folder: /img
-media_library:
-  name: cloudinary
-  config:
-    cloud_name: duclassical
-    api_key: 531313516355845
 collections:
   - name: 'blog'
     label: 'Blog'
@@ -56,29 +51,9 @@ collections:
     slug: '{{slug}}'
     editor:
       preview: false
-    fields: # The fields each document in this collection have
-      - label: 'Name'
-        name: 'name'
-        widget: 'string'
-      - label: 'Position'
-        name: 'position'
-        widget: 'string'
-      - label: 'Short (unique string)'
-        name: 'short'
-        widget: 'string'
-      - label: 'Bio'
-        name: 'bio'
-        widget: 'markdown'
-      - label: 'Cover Image'
-        name: 'image'
-        widget: 'image'
-        required: false
-        tagname: ''
-        media_library:
-          config:
-            default_transformations:
-              - fetch_format: auto
-                width: 300    
-                quality: auto
-                crop: fill
-                effect: grayscale
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Position', name: 'position', widget: 'string' }
+      - { label: 'Short (unique string)', name: 'position', widget: 'string' }
+      - { label: 'Bio', name: 'bio', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
