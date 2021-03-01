@@ -47,6 +47,6 @@ collections:
     fields:
       - { label: 'Name', name: 'title', widget: 'string' }
       - { label: 'Position', name: 'position', widget: 'string' }
-      - { label: 'Short (unique string)', name: 'short', widget: 'string' }
+      - { label: 'Email Prefix', name: 'short', widget: 'string' }
       - { label: 'Bio', name: 'bio', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image' }
