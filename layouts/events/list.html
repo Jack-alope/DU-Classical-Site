@@ -1,0 +1,17 @@
+{{ define "main" }}
+    <div class="container">
+    {{ if .Params.upcoming }}
+      Hi
+    {{ end }}
+    {{ $year := 1}}  
+    {{ range .Pages.ByDate.Reverse }}
+      {{ $eventYear := .Date.Format "2006" }}
+      {{ if ne $year $eventYear }}
+        <hr>
+        <h4>{{ $eventYear }}</h4>
+        {{ $year = $eventYear }}
+      {{ end }}
+      <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+    {{ end }}
+    </div>
+{{ end }}
