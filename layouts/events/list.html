@@ -8,6 +8,7 @@
         {{ if $upcomingyet }}
           <hr>
           <h4>Upcoming</h4>
+          {{ $upcomingyet = false }}
         {{ end }}
         <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
 
