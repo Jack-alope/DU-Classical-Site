@@ -8,7 +8,7 @@ media_library:
   config:
     publicKey: 45b23e70f2f704125f07
     crop: "3:2"
-    multiple: true
+
 
 collections:
   - name: 'slider'
