@@ -1,6 +1,6 @@
 ---
 name: Jared Charles Miller
-position: Auditor ... Possibly
+position: Auditor
 short: jhbmillerj44
 bio: Jared Charles Miller is something to this society. He does things and also
   does other things.
