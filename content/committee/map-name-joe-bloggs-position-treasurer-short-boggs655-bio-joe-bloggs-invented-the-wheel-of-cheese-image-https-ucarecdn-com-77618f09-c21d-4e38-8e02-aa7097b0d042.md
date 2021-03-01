@@ -1,5 +1,5 @@
 ---
-name: Joe Bloggs
+name: Oscar Verdun
 position: "Treasurer "
 short: boggs655
 bio: Joe Bloggs invented the wheel of cheese.
