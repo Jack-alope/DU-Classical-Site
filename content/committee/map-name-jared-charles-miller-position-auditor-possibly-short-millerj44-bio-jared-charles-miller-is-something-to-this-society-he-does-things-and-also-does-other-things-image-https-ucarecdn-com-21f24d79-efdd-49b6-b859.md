@@ -1,6 +1,6 @@
 ---
-name: Jared Charles Miller
-position: Auditor ... Possibly
+name: Michael Mac Nulty
+position: Secretary
 short: millerj44
 bio: Jared Charles Miller is something to this society. He does things and also
   does other things.
