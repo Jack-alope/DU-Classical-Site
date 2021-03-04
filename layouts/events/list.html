@@ -1,27 +1,62 @@
 {{ define "main" }}
     <div class="container">
-    {{ $year := 1}}  
-    {{ $upcomingyet := true }}
-    {{ range .Pages.ByDate.Reverse }}
-     
-      {{ if .Params.upcoming }}
-        {{ if $upcomingyet }}
-          <hr>
-          <h4>Upcoming</h4>
-          {{ $upcomingyet = false }}
+      {{ $year := 1}}  
+      {{ $upcomingyet := true }}
+      <div class="row">
+        {{ range .Pages.ByDate.Reverse }}
+          <div role="dialog" tabindex="-1" class="modal fade" id="{{.Params.slug}}">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title"
+                      id="exampleModalLongTitle">{{.Title}}</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <p>{{.Content}}</p>
+                    </div>
+                    <div class="modal-footer">
+                      <p><strong>Date:</strong> {{.Params.eventDate.Format "Mon, 02 Jan 2006 15:04"}}</p>
+                      <p><strong>Location:</strong> {{.Params.location}}</p>
+                      <button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
+                </div>
+            </div>
+          </div>
+          {{ if .Params.upcoming }}
+            {{ if $upcomingyet }}
+              
+              <div class="col-lg-12" style="margin-top: 30px;">
+                <hr>
+                <h4>Upcoming</h4>
+              </div>
+              {{ $upcomingyet = false }}
+            {{ end }}
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <a class="text-muted" href="#{{.Params.slug}}"
+                data-toggle="modal">
+                    <img class="card-img-top" src="{{.Params.image}}"
+                    alt="DU Classical">
+                </a>
+            </div>
+          {{ else }}
+            {{ $eventYear := .Date.Format "2006" }}
+            {{ if ne $year $eventYear }}
+              
+              <div class="col-lg-12">
+                <hr>
+                <h4>{{ $eventYear }}</h4>
+              </div>
+              {{ $year = $eventYear }}
+            {{ end }}
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <a class="text-muted" href="#{{.Params.slug}}"
+              data-toggle="modal">
+                  <img class="card-img-top" src="{{.Params.image}}"
+                  alt="DU Classical">
+              </a>
+            </div>
+          {{ end }}
         {{ end }}
-        <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
-
-      {{ else }}
-        {{ $eventYear := .Date.Format "2006" }}
-        {{ if ne $year $eventYear }}
-          <hr>
-          <h4>{{ $eventYear }}</h4>
-          {{ $year = $eventYear }}
-        {{ end }}
-        <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
-      {{ end }}
-    {{ end }}
+      </div>
       
     </div>
 {{ end }}
