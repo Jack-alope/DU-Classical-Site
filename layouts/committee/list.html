@@ -13,7 +13,14 @@
                     <div class="modal-body">
                         <p>{{.Params.bio}}</p>
                     </div>
-                    <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
+                    <div class="modal-footer">
+                      {{if isset .Params "twitter"}}
+                        <a href="https://twitter.com/{{.Params.twitter}}" title="Twitter" target="_blank"> <i
+                          class="fab fa-twitter"
+                          data-toggle="tooltip" data-placement="top"
+                          title="Twitter" style="color: grey;"></i></a>
+                      {{end}}
+                      <button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
                 </div>
             </div>
           </div>

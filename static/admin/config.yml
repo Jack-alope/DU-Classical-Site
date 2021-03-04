@@ -52,3 +52,9 @@ collections:
       - { label: 'Email Prefix', name: 'short', widget: 'string' }
       - { label: 'Bio', name: 'bio', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Twitter',name: 'twitter', widget: 'string',required: false}
+      - { label: 'Insta',name: 'insta', widget: 'string',required: false}
+      - { label: 'Facebook', name: 'facebook', widget: 'string',required: false}
+      - { label: 'Website', name: 'site', widget: 'string', required: false}
+      
