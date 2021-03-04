@@ -56,4 +56,14 @@ collections:
       - { label: 'Insta',name: 'insta', widget: 'string',required: false}
       - { label: 'Facebook', name: 'facebook', widget: 'string',required: false}
       - { label: 'Website', name: 'site', widget: 'string', required: false}
+  
+  - name: 'contact'
+    label: 'Contact'
+    folder: 'content/contact'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+    
       
