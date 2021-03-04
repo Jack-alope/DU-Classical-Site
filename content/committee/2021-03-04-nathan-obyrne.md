@@ -1,6 +1,7 @@
 ---
 title: Nathan O'Byrne
 position: OCM
+date: 2021-03-01T14:43:56.054Z
 short: ocm2
 bio: Hey! I'm Nathan, this is my fourth year on committee (send help). I read
   the Odyssey one (ONE) time (did not care for it), I knew Alexander the great
