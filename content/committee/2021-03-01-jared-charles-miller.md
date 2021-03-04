@@ -1,6 +1,7 @@
 ---
 title: Jared Charles Miller
 position: Auditor
+date: 2021-03-04T14:47:16.038Z
 short: miller
 bio: My name is Jared and I'm a single honours major in my third year. I am
   super excited to be this year's Auditor for the classical society, the head of
