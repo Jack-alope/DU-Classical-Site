@@ -23,7 +23,6 @@
           </div>
           {{ if .Params.upcoming }}
             {{ if $upcomingyet }}
-              
               <div class="col-lg-12" style="margin-top: 30px;">
                 <hr>
                 <h4>Upcoming</h4>
@@ -40,8 +39,7 @@
           {{ else }}
             {{ $eventYear := .Date.Format "2006" }}
             {{ if ne $year $eventYear }}
-              
-              <div class="col-lg-12">
+              <div class="col-lg-12" style="margin-top: 20px;">
                 <hr>
                 <h4>{{ $eventYear }}</h4>
               </div>
