@@ -1,7 +1,7 @@
 ---
 title: Michael Mac Nulty
 position: Secretary
-short: nulty
+short: secre
 bio: Sponsored by McDonalds.
-image: https://ucarecdn.com/8e8af937-76dc-46b5-a3ce-8e44e1278392/
+image: https://ucarecdn.com/be1ee484-044b-4d70-8f05-811a463277d0/-/crop/540x360/0,157/-/preview/
 ---
