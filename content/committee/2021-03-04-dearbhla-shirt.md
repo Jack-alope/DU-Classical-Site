@@ -1,6 +1,7 @@
 ---
 title: Dearbhla Shirt
 position: Events Officer
+date: 2021-03-02T14:42:05.929Z
 short: event
 bio: Hi, my name's Dearbhla and I'm in final year of History of Art and
   Architecture. I'm the events officer on committee, in charge of planning some
