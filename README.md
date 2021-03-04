@@ -4,5 +4,7 @@ DU Classical Site.
   
 A website for the Trinty College Dublin Classical Society. Built with Hugo by [Jack F. Murphy](https://jack.engineering) and editable by members of the society via [netlify CMS](https://www.netlifycms.org). 
 
+If you are a member of the society and having any trouble updating information please email jack@mrph.dev or open an issue on this repo.
+
 ---
 The theme will be detached from the content at a later date and available for open source use.
