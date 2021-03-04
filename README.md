@@ -7,4 +7,4 @@ A website for the Trinty College Dublin Classical Society. Built with Hugo by [J
 If you are a member of the society and having any trouble updating information please email jack@mrph.dev or open an issue on this repo.
 
 ---
-The theme will be detached from the content at a later date and available for open source use.
+The theme will be detached from the content when I get around to it and available for open source use.
