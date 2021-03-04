@@ -1,23 +1,28 @@
 {{ define "main" }}
     <div class="container">
-      <h1 class="text-center" style="padding-top:
-      50px;">Get In Touch</h1>
-      <hr width="50%">
-      {{ range .Pages}}
-        {{ .Content}}
-      {{ end}}
-      <div class="row justify-content-center align-items-center"i style="margin-top: 50px;">
-        <div class="col" style="text-align: right;">
-          <a role="button" class="btn
-                    btn-dark"style="margin-left: 10px;"
-                    href="https://trinitysocietieshub.com/collections/society-memberships" target="_blank">Sign Up</a>
+      <div class="row justify-content-center align-items-center" style="margin-top: 100px;">
+        <div class="col-sm-12 col-md-6" style="margin-bottom: 50px;">
+          <h1 class="text-center">Get In Touch</h1>
+          <hr width="50%">
+          {{ range .Pages}}
+            {{ .Content}}
+          {{ end}}
+          <div class="row justify-content-center align-items-center">
+            <div class="col" style="text-align: right;">
+              <a role="button" class="btn
+                        btn-dark"style="margin-left: 10px;"
+                        href="https://trinitysocietieshub.com/collections/society-memberships" target="_blank">Sign Up</a>
+            </div>
+            <div class="col" style="text-align: left;">
+              <a role="button" class="btn
+                        btn-outline-dark"style="margin-left: 10px;"
+                        href="mailto:classical@csc.tcd.ie" target="_blank">Email</a>
+            </div>
+          </div>
         </div>
-        <div class="col" style="text-align: left;">
-          <a role="button" class="btn
-                    btn-outline-dark"style="margin-left: 10px;"
-                    href="mailto:classical@csc.tcd.ie" target="_blank">Email</a>
+        <div class="col">
+          <a class="twitter-timeline" data-width="1200" data-height="600" data-dnt="true" data-theme="light" href="https://twitter.com/DUClassical?ref_src=twsrc%5Etfw">Tweets by DUClassical</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
-
       </div>
     </div>
 {{ end }}
