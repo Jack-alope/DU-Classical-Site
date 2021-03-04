@@ -11,14 +11,32 @@
                 <div class="modal-content">
                     <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
                     <div class="modal-body">
-                        <p>{{.Params.bio}}</p>
+                        <p>{{.Content}}</p>
                     </div>
                     <div class="modal-footer">
                       {{if isset .Params "twitter"}}
                         <a href="https://twitter.com/{{.Params.twitter}}" title="Twitter" target="_blank"> <i
                           class="fab fa-twitter"
                           data-toggle="tooltip" data-placement="top"
-                          title="Twitter" style="color: grey;"></i></a>
+                          title="Twitter" style="color: grey;margin-left: 10px;margin-right: 10px;"></i></a>
+                      {{end}}
+                      {{if isset .Params "insta"}}
+                        <a href="https://instagram.com/{{.Params.insta}}" title="Insta" target="_blank"> <i
+                          class="fab fa-instagram"
+                          data-toggle="tooltip" data-placement="top"
+                          title="Twitter" style="color: grey;margin-left: 10px;margin-right: 10px;"></i></a>
+                      {{end}}
+                      {{if isset .Params "facebook"}}
+                        <a href="https://facebook.com/{{.Params.facebook}}" title="Facebook" target="_blank"> <i
+                          class="fab fa-facebook"
+                          data-toggle="tooltip" data-placement="top"
+                          title="Facebook" style="color: grey;margin-left: 10px;margin-right: 10px;"></i></a>
+                      {{end}}
+                      {{if isset .Params "site"}}
+                        <a href="{{.Params.site}}" title="Website" target="_blank"> <i
+                          class="fas fa-link"
+                          data-toggle="tooltip" data-placement="top"
+                          title="Website" style="color: grey;margin-left: 10px;margin-right: 10px;"></i></a>
                       {{end}}
                       <button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
                 </div>
