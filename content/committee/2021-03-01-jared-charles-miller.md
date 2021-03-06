@@ -1,15 +1,15 @@
 ---
 title: Jared Charles Miller
-position: Auditor
-date: 2021-03-04T14:47:16.038Z
-short: miller
+facebook: ""
+site: ""
 bio: My name is Jared and I'm a single honours major in my third year. I am
   super excited to be this year's Auditor for the classical society, the head of
   the committee, helping all aspects of the running
+position: Auditor
+date: 2021-03-04T14:47:16.038Z
+short: miller
 image: https://ucarecdn.com/639933df-3bbc-42ea-8070-465728e94251/-/crop/688x458/0,165/-/preview/
-twitter: jaredcem
-insta: jcmiller26
-facebook: jared.miller.52056223
-site: https://duclassical.mrph.dev/committee/
+twitter: ""
+insta: ""
 ---
-My name is Jared and I'm a single honours major in my third year. I am super excited to be this year's Auditor for the classical society, the head of the committee, helping all aspects of the running
+My name is Jared and I'm a single honours major in my third year. I am super excited to be this year's Auditor for the Classical Society—the head of the committee, helping all aspects of its running.
