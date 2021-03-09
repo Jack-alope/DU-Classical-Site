@@ -23,5 +23,5 @@ jobs:
           rm -r /var/www/html/*
           git clone https://github.com/Jack-alope/du-classical-site.git
           cd du-classical-site
-          hugo
+          hugo --buildFuture
           mv -v public/* /var/www/html/
