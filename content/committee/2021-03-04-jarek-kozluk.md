@@ -1,7 +1,7 @@
 ---
 title: Jarek Kozluk
 position: Publishing Editor
-date: 2021-03-04T15:12:42.068Z
+date: 2021-03-06T15:12:00.000Z
 short: pubs
 bio: "Hello there! It's me your publishing editor this year. I was born in
   Warsaw, Poland and somehow my path has led me to the blooming city of Dublin.
