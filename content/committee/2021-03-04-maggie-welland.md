@@ -1,7 +1,7 @@
 ---
 title: Maggie Welland
 position: Assistant Librarian
-date: 2021-03-04T15:13:13.374Z
+date: 2021-03-05T15:13:00.000Z
 short: aslib
 bio: Hi! I'm Maggie and I'm the Assistant Librarian of the Society this
   year.  You'll find me on the 6th floor taking up residence in our library,
