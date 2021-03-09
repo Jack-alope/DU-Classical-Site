@@ -6,6 +6,12 @@ title = "DU Classical Society"
 [menu]
 # -------------------------
   [[menu.bot]]
+    identifier = "discord"
+    name = "Discord"
+    url = "https://discord.gg/8bdSVaTkr8"
+    pre = "fab fa-discord"
+
+  [[menu.bot]]
     identifier = "facebook"
     name = "Facebook"
     url = "https://www.facebook.com/DUClassics"
@@ -22,3 +28,5 @@ title = "DU Classical Society"
     name = "Twitter"
     url = "https://twitter.com/DUClassical"
     pre = "fab fa-twitter"
+
+  
