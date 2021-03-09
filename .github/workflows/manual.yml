@@ -17,7 +17,7 @@ jobs:
     - name: Install sshpass
       run: sudo apt-get install sshpass
     - name: Encrypt index
-      run: sshpass -p ${{ secrets.NETSOCCONT }} ssh -tt root@mrph.netsoc.ie -p 51150
+      run: sshpass -p ${{ secrets.NETSOCCONT }} ssh -tt -o UserKnownHostsFile=/dev/null root@mrph.netsoc.ie -p 51150
     - name: Do stuff
       run: |
         rm -r /var/www/html/*
