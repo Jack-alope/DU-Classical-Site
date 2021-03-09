@@ -7,23 +7,20 @@ on:
     branches: [ main ]
 
 jobs:
-  crypt:
-    # The type of runner that the job will run on
+  build:
+    name: Build
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - uses: actions/checkout@v2
-    - name: Install sshpass
-      run: | 
-        sudo apt-get install -y sshpass ssh
-        ssh-keyscan -H root@mrph.netsoc.ie -p 51150 >> ~/.ssh/known_hosts
-    - name: SSH
-      run: sshpass -p ${{ secrets.NETSOCCONT }} ssh -tt root@mrph.netsoc.ie -p 51150
-    - name: Do stuff
-      run: |
-        rm -r /var/www/html/*
-        git clone https://github.com/Jack-alope/du-classical-site.git
-        cd du-classical-site
-        hugo
-        mv -v public/* /var/www/html
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+        script: |
+          rm -r /var/www/html/*
+          git clone https://github.com/Jack-alope/du-classical-site.git
+          cd du-classical-site
+          hugo
+          mv -v public/* /var/www/html/
