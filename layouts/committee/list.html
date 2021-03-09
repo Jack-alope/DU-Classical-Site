@@ -5,7 +5,7 @@
       <hr width="50%">
       
       <div class="row justify-content-center align-items-center">
-        {{ range .Pages.ByDate.Reverse }}
+        {{ range .Pages.ByDate }}
           <div role="dialog" tabindex="-1" class="modal fade" id="{{.Params.short}}" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered" role="document" >
                 <div class="modal-content">
