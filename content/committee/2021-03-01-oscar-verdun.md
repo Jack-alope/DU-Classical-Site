@@ -1,7 +1,7 @@
 ---
 title: Oscar Verdun
 position: Treasurer
-date: 2021-03-04T15:11:52.509Z
+date: 2021-02-28T15:11:00.000Z
 short: treas
 bio: Hi, I'm Oscar, your treasurer. I'm in my fourth year of studying Classics
   and enjoying all things Classics Soc. As treasurer, it's my job to make sure
