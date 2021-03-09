@@ -1,7 +1,7 @@
 ---
 title: Matthew Wainwright
 position: OCM
-date: 2021-03-04T15:13:23.656Z
+date: 2021-03-08T14:15:00.000Z
 short: ocm1
 bio: Hi, I'm Matthew. I'm a single honours Classics student in my Junior
   Sophister year. I'm an Ordinary Committee Member, so my role is to just
