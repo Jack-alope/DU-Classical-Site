@@ -17,28 +17,38 @@
                     </div>
                     <div class="modal-footer">
                       {{if isset .Params "twitter"}}
+                        {{ if ne .Params.twitter "" }}
                         <a href="https://twitter.com/{{.Params.twitter}}" title="Twitter" target="_blank"> <i
                           class="fab fa-twitter"
                           data-toggle="tooltip" data-placement="top"
-                          title="Twitter" style="color: grey;margin-left: 10px;margin-right: 10px;"></i></a>
+                        title="Twitter" style="color:
+                        grey;margin-left: 10px;margin-right:
+                        10px;"></i></a>
+                          {{ end }}
                       {{end}}
                       {{if isset .Params "insta"}}
+                      {{ if ne .Params.insta "" }}
                         <a href="https://instagram.com/{{.Params.insta}}" title="Insta" target="_blank"> <i
                           class="fab fa-instagram"
                           data-toggle="tooltip" data-placement="top"
                           title="Instagram" style="color: grey;margin-left: 10px;margin-right: 10px;"></i></a>
                       {{end}}
+                      {{end}}
                       {{if isset .Params "facebook"}}
+                      {{ if ne .Params.facebook "" }}
                         <a href="https://facebook.com/{{.Params.facebook}}" title="Facebook" target="_blank"> <i
                           class="fab fa-facebook"
                           data-toggle="tooltip" data-placement="top"
                           title="Facebook" style="color: grey;margin-left: 10px;margin-right: 10px;"></i></a>
                       {{end}}
+                      {{end}}
                       {{if isset .Params "site"}}
+                      {{ if ne .Params.site "" }}
                         <a href="{{.Params.site}}" title="Website" target="_blank"> <i
                           class="fas fa-link"
                           data-toggle="tooltip" data-placement="top"
                           title="Website" style="color: grey;margin-left: 10px;margin-right: 10px;"></i></a>
+                      {{end}}
                       {{end}}
                       <button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
                 </div>
