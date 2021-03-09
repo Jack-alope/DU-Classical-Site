@@ -19,6 +19,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
+          rm -r du-classical-site
           rm -r /var/www/html/*
           git clone https://github.com/Jack-alope/du-classical-site.git
           cd du-classical-site
