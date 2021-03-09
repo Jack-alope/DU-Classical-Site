@@ -1,7 +1,7 @@
 ---
 title: Una Ní Bhriain
 position: Amenities Officer
-date: 2021-03-04T15:12:01.553Z
+date: 2021-03-07T15:12:00.000Z
 short: amen
 bio: Hey, I'm Una and I'm the amenities officer for the society.  That's
   basically the Wine Mom role of committee - I'm in charge of getting all the
