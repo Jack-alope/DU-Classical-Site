@@ -1,8 +1,20 @@
 ---
 title: Guide
 ---
-Announcing out annual Toga Party in collaboration with the DU Archaeological Society. Join us for some classical games!
+> # **`Guide for Admins`**
 
-Bring your best togas and bed sheets, not only are we hosting our annual extravaganza... but we will also be announcing our [Iris Magazine](https://issuu.com/iristr) launch. 
+## **`General`**
 
-You may also be in the runnings for a Just Eat voucher
+## **`Main Slider`**
+
+## `Committee Members`
+
+## `Events`
+
+## **`Reach Out`**
+
+> `Twitter and Instagram feeds should self update.`
+
+## `Other`
+
+> `For anything else not covered here please email jack@mrph.dev or open an issue on the github repo. `
