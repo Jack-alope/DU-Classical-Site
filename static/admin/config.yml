@@ -35,6 +35,7 @@ collections:
       - { label: 'Location', name: 'location', widget: 'string' }
       - { label: 'Event Date', name: 'date', widget: 'datetime' }
       - { label: "Upcoming", name: "upcoming", widget: "boolean", default: true}
+      - { label: "Repeating", name: "repeating", widget: "boolean", default: false}
       - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
