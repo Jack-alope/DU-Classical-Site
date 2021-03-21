@@ -8,8 +8,8 @@ repeating: true
 image: https://ucarecdn.com/00e9dcb1-9934-45bd-ab33-69eb3698e64c/-/preview/
 description: This will be deleted.
 ---
-Chill, chat something else. 
+**COFFEE HOUR!**
 
+Chill chats, hot drinks and classically inclined people... what more could you want?
 
-
-Join us on Discord: <https://link>.
+Join our discord: [](https://link)<https://discord.gg/8bdSVaTkr8>
