@@ -1,20 +1,20 @@
 ---
 title: Guide
 ---
-> # **`Guide for Admins`**
+# **Guide for Admins**
 
-## **`General`**
+## **General**
 
-## **`Main Slider`**
+## **Main Slider**
 
-## `Committee Members`
+## Committee Members
 
-## `Events`
+## Events
 
-## **`Reach Out`**
+## **Reach Out**
 
-> `Twitter and Instagram feeds should self update.`
+> Twitter and Instagram feeds should self update.
 
-## `Other`
+## Other
 
-> `For anything else not covered here please email jack@mrph.dev or open an issue on the github repo. `
+> For anything else not covered here please email jack@mrph.dev or open an issue on the github repo.
