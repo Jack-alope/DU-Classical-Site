@@ -5,6 +5,8 @@ title: Guide
 
 ## General
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This guide will be updated at some point to give new committee members and= idea of how to get started updating the site. 
+
 ## Main Slider
 
 ## Committee Members
@@ -13,12 +15,11 @@ title: Guide
 
 ## Reach Out
 
-> Twitter and Instagram feeds should self update.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitter and Instagram feeds should self update.
 
 ## Other
 
-> For anything else not covered here please email jack@mrph.dev or open an issue on the github repo.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For anything else not covered here please email jack@mrph.dev or open an issue on the github repo.
 
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thing
