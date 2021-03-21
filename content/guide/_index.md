@@ -5,7 +5,7 @@ title: Guide
 
 ## General
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This guide will be updated at some point to give new committee members and= idea of how to get started updating the site. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This guide will be updated at some point to give new committee members an idea of how to get started updating the site. 
 
 ## Main Slider
 
