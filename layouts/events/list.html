@@ -16,7 +16,8 @@
                     </div>
                     <div class="modal-footer">
                       {{ if .Params.repeating }}
-                        <p><strong>Date:</strong> Weekly on {{dateFormat "Mondays" .Params.date}}</p>
+                        <p><strong>Date:</strong> Weekly on
+                        {{dateFormat "Mondays 15:04" .Params.date}}</p>
                       {{else}}
                         <p><strong>Date:</strong> {{dateFormat "Mon, 02 Jan 2006 15:04" .Params.date}}</p>
                       {{ end }}
