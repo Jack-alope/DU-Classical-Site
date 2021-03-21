@@ -66,5 +66,14 @@ collections:
       preview: false
     fields:
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'guide'
+    label: 'Guide'
+    folder: 'content/guide'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Body', name: 'body', widget: 'markdown'}
     
       
