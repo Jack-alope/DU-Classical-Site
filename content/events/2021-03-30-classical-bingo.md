@@ -7,8 +7,6 @@ upcoming: false
 repeating: false
 image: https://ucarecdn.com/269e1474-d6ec-4452-b8e3-253358f77cb4/-/crop/1242x1241/0,681/-/preview/
 ---
-**CLASSICAL BINGO**
-
 Get your random facts and competitive kicks on, we have another fabulous Bingo Night tomorrow evening!
 
 See your all there!
